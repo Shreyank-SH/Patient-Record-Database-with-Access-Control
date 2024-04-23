@@ -8,7 +8,7 @@ import java.awt.event.ItemListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HealthMonitoringGUI extends JFrame {
+public class Patient_Record_With_Access_Control extends JFrame {
     private JTextField nameField;
     private JComboBox<String> userTypeCombo;
     private JButton loginButton;
@@ -18,7 +18,7 @@ public class HealthMonitoringGUI extends JFrame {
     private JPasswordField passwordField;
     private JButton changeModeButton;
 
-    public HealthMonitoringGUI() {
+    public Patient_Record_With_Access_Control() {
         setTitle("Health Monitoring System");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -143,7 +143,7 @@ public class HealthMonitoringGUI extends JFrame {
             openWindows.clear();
 
             // Open the starting GUI
-            new HealthMonitoringGUI();
+            new Patient_Record_With_Access_Control();
         }
     }
 
@@ -346,6 +346,6 @@ public class HealthMonitoringGUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        new HealthMonitoringGUI();
+        new Patient_Record_With_Access_Control();
     }
 }

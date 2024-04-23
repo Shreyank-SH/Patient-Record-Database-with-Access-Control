@@ -84,7 +84,7 @@ public class DatabaseManager {
             frame.getContentPane().add(scrollPane, BorderLayout.CENTER);
             frame.setSize(300, 200);
             frame.setVisible(true);
-            HealthMonitoringGUI.openWindows.add(frame);
+            Patient_Record_With_Access_Control.openWindows.add(frame);
         } else {
             JOptionPane.showMessageDialog(null, "No record found with ID: " + id);
         }
