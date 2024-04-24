@@ -37,7 +37,7 @@ The application follows Object-Oriented Programming (OOP) principles and incorpo
 ## Usage
 
 1. Compile the Java files.
-2. Run the `HealthMonitoringGUI` class to launch the application.
+2. Run the `Patient_Record_With_Access_Control` class to launch the application.
 3. Select the user type (doctor or family member) from the combo box.
 4. If you are a doctor, you can sign up or log in with your credentials. If you are a family member, simply enter your name.
 5. After successful authentication, the main application window will open, displaying the available options based on your user type.
