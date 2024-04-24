@@ -4,7 +4,6 @@ The Patient Record Database with Access Control is a Java-based application that
 
 
 **GUI Screenshot**
-
 Few GUI components screenshots are attached in the folder screenshots
 
 ## Features
