@@ -3,7 +3,7 @@
 The Patient Record Database with Access Control is a Java-based application that allows doctors and family members to manage patient health records. It provides features for adding, viewing, updating, and deleting health records, as well as user authentication and authorization.
 
 
-**GUI Screenshot: **
+*GUI Screenshot: *
 Few GUI components screenshots are attached in the folder screenshots
 
 ## Features
